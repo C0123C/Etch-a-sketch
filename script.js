@@ -87,8 +87,6 @@ function changeSize(e) {
 function clear() {
   const divs = document.querySelectorAll('.grid > div');
   divs.forEach(div => div.style.backgroundColor = ''); 
-  sizeValue = prompt("Size(1-64):");
-  changeSize(sizeValue);
 }
 
 buildGrid(DEFAULT_SIZE);
